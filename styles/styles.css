@@ -1,0 +1,491 @@
+:root {
+  /*--colour-1: rgb(63, 146, 216);*/
+  --colour-1: #1f2833;
+  /*--colour-2: rgb(16,8, 113, 19);*/
+  --colour-2: rgb(255,0,0);
+  --colour-2-1: #1f2833;
+  --colour-2-2: rgb(137, 168, 99);
+}
+
+body {
+  margin: 0;
+  background-color: var(--colour-1);
+  padding-bottom: 100px;
+  height: 100%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+html {
+  height: 100%;
+}
+
+header {
+  width: 100%;
+  margin-bottom: 100px;
+  background-color: var(--colour-1);
+  position: fixed;
+  z-index: 99;
+}
+#val {
+  float: left;
+}
+
+header ul {
+  overflow: auto;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: var(--colour-2);
+  display: flex;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header li a {
+  display: block;
+  color: var(--colour-1);
+  padding: 9px 17px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* When the link is hovered on, its color will change */
+header li a:hover {
+  background-color: var(--colour-2-1);
+  color: white;
+}
+
+.index-container {
+  border-width: 5px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 7%;
+  width: 50%;
+  margin-left: 25%;
+}
+
+#title {
+  color: var(--colour-2);
+  text-align: center;
+  padding: 0;
+  font-size: 45px;
+}
+
+.Name {
+  text-decoration: overline;
+  color: var(--colour-2-2);
+  text-align: left;
+  /*text-shadow: 2px 2px #ffffff;*/
+  padding-left: 2%;
+}
+
+.Cymru {
+  display: block;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+nav {
+  width: 100%;
+  background-color: black;
+}
+
+.name {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.content {
+  padding-top: 2%;
+  padding-bottom: 8%;
+  color: black;
+}
+
+.content p {
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 18px;
+}
+
+.content h2 {
+  padding-left: 2%;
+}
+
+.skills h4 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.skills ul {
+  padding-left: 45%;
+}
+
+.skill_scroll {
+  text-align: center;
+}
+
+.scroll_button {
+  background-color: var(--colour-2);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 100%;
+  cursor: pointer;
+  margin-top: 1%;
+}
+
+.scroll_button:hover {
+  background-color: var(--colour-2-1);
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: right;
+  z-index: 2;
+}
+
+footer a {
+  padding-right: 1%;
+}
+
+footer p {
+  float: left;
+  font-size: 12px;
+}
+
+.parallax {
+  /* Full height */
+  height: 70%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax_index {
+  /* Full height */
+  height: 90%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax_data {
+  height: auto;
+  background-color: var(--colour-2);
+  font-size: 36px;
+  padding: 3%;
+  padding-top: 1%;
+  text-align: center;
+}
+
+.parallax_data_1 {
+  height: auto;
+  width: auto;
+  background-color: var(--colour-2-1);
+  font-size: 36px;
+  padding: 3%;
+  padding-top: 1%;
+  text-align: center;
+}
+
+.bottom-index {
+  height: 10%;
+  width: 100%;
+  background-color: var(--colour-2-1);
+  padding-left: 10%;
+}
+
+td {
+  width: 50%;
+  font-size: 32px;
+  padding: 0%;
+  text-align: center;
+}
+
+.row-title {
+  background-color: var(--colour-2-2);
+}
+
+.row-content {
+  background-color: var(--colour-2-1);
+}
+table {
+  margin-top: 2%;
+}
+
+th {
+  font-size: 30px;
+  color: var(--colour-2);
+}
+
+table,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 2%;
+}
+
+.quote {
+  font-size: 24px;
+  width: 50%;
+  text-align: center;
+}
+
+#word-cloud {
+  height: 50%;
+
+  width: 100%;
+  padding-top: 15%;
+  background-color: var(--colour-1);
+  color: white;
+}
+
+.slidecontainer {
+  float: right;
+  display: none;
+  background-color: var(--colour-1);
+  width: 100%;
+}
+
+.slidecontainer p {
+  color: white;
+}
+
+.skill-swap {
+  background-color: var(--colour-2);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  display: inline-block;
+}
+
+.colour-swap {
+  background-color: var(--colour-2); /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  display: inline-block;
+}
+
+.colour-swap:hover {
+  background-color: var(--colour-2-1);
+  color: white;
+}
+
+.badge {
+  text-align: center;
+}
+
+.badges{
+  text-align: center;
+  padding-top:10%;
+}
+
+.skill-boxes {
+  padding-left: 20%;
+  padding-right: 30%;
+  padding-bottom: 25%;
+}
+
+.skill-box {
+  border-width: 3px;
+  border-style: solid;
+  border-color: var(--colour-2);
+  border-radius: 25px;
+
+  width: fit-content;
+  padding: 10px;
+  display: flex;
+  float: left;
+  margin: 10px;
+
+  font-size: 45px;
+  font-weight: bold;
+  color: var(--colour-2);
+
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.skill-box:hover {
+  background-color: var(--colour-2);
+  color: var(--colour-1);
+}
+
+#skill-info {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: var(--colour-2);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+#skill-description {
+  padding-left: 5%;
+  padding-right: 5%;
+
+  font-size: 32px;
+}
+
+.fyi {
+  color: var(--colour-2-1);
+  font-weight: bold;
+}
+
+.experiences {
+  padding-top: 5%;
+}
+.experience-title {
+  background-color: var(--colour-2);
+  height: auto;
+  width: 100%;
+  text-align: center;
+
+  font-size: 30px;
+}
+
+.experience-data {
+  background-color: var(--colour-2-1);
+  height: 0%;
+  width: 100%;
+  text-align: center;
+
+  padding-top: 1%;
+  padding-bottom: 1%;
+
+  font-size: 30px;
+  display: flex;
+}
+
+.skill-data-heading {
+  padding-bottom: 1%;
+  padding-top: 0;
+}
+
+.name-card {
+  height: 65%;
+  background-color: var(--colour-1);
+
+  text-align: center;
+  font-size: 64px;
+
+  width: 100%;
+
+  color: black;
+  padding-top: 10%;
+
+  background-image: url("../images/background.png");
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.name-subtitle {
+  font-size: 32px;
+}
+
+details > summary {
+  list-style: none;
+}
+details > summary::marker {
+  display: none;
+}
+
+#uniqueDetailsDiv {
+  display: none;
+
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-bottom: 2%;
+}
+details:hover #uniqueDetailsDiv {
+  display: block;
+}
+
+details {
+  text-align: center;
+  font-size: 32px;
+}
+
+.odd {
+  background-color: var(--colour-2);
+}
+
+.even {
+  background-color: var(--colour-2-1);
+}
+
+.experiences {
+  padding-top: 3%;
+}
+
+.experience-title {
+  text-align: center;
+
+  margin: 0;
+  background-color: var(--colour-2-1);
+}
+
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  #heading,
+  .content,
+  .parallax_data,
+  .parallax_data_1,
+  .parallax_index {
+    width: 100%;
+  }
+}

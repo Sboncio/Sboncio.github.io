@@ -1,0 +1,27 @@
+[
+    {
+        "title": "Chatbot",
+        "summary": "One of my most exciting current projects is to create a chatbot for this very website. I'm designing it to talk to potential employers and recruiters who would like to ask for more information regarding myself, and some niche questions that might have a funny answer or two.",
+        "image": "chatbot.png"
+    },
+    {
+        "title": "Personal Website",
+        "summary": "This website itself is one of my personal projects. Originally started as an example for the \"IBM CIC Code The Future\" course I tutored, it has evolved into a type of portfolio and sandbox for me to try new things and play around with ideas. ",
+        "image": "website.jpg"
+    },
+    {
+        "title": "Autonomous Drone",
+        "summary": "I am currently working on an autonomous drone that can be used for autonomous drone racing. I aim to follow the complete creation lifecycle of the project, from design and printing of the chassis, the implementation of the separate electronics to the complete creation of the code from the ground up. I currently have the required code for collision detection and avoidance, having already written as tested in C++ as part of my university dissertation. (This project is detailed below.)",
+        "image": "drone.jpeg"
+    },
+    {
+        "title": "Self-Navigating Robot",
+        "summary": "I created a control system for a differential drive robot that could navigate unknown environments to a destination, while avoiding both static and moving obstacles. When active, the robot would also create a map of its environment for future reference, and would track its route along the map. The project was created using ROS and C++, with a GUI created using Python to activate and control the robot when required.",
+        "image": "turtlebotPi.jpeg"
+    },
+    {
+        "title": "Collision Detection System",
+        "summary": "A collision detection and avoidance system was created for self-driving cars to safely detect, asses and avoid obstacles safely while travelling. The system consisted of several hundred fuzzy logic rules, in order to handle any possible combination of vehicle speed, obstacle direction and obstacle size. This system was created using the Matlab scripting language, with testing scenarios being sequentially generated to ensure safety in all possible combination of conditions.",
+        "image": "fuzzylogic.png"
+    }
+]

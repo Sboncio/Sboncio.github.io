@@ -1,0 +1,34 @@
+[
+    {
+        "title": "Application Developer", 
+        "date": "Feb 2021-Present", 
+        "location": "IBM CIC", 
+        "description": "While still being relatively new to IBM, I've learnt a lot about web development and devops. Using IBM's training resources, I have been expanding my skillset to include technologies such as AWS, TensorFlow, React and Vue js.",
+        "category": "employment",
+        "skills": ["React", "Javascript", "Java", "AWS", "Docker", "VB", "Vue.js"]
+    },
+    {
+        "title": "Dev Ops Consultant", 
+        "date": "Jul 2020-Jan 2021",
+        "location": "QA Consulting",
+        "description": "Although I was only in this role for a short time, I used this opportunity to gain experience in AWS, Azure and GCP. I also learnt about planning, creating and deploying pipelines to ensure code is properly tested, containerised and deployed to a large number of remote servers, without impacting current users.",
+        "category": "employment",
+        "skills": ["Docker", "Jenkins","SQL","Python","Flask","Kubernetes","Java"]
+    },
+    {
+        "title": "BSc (Hons) Artificial Intelligence - First Class",
+        "date": "Sep 2017-Jul 2020",
+        "location": "De Montfort University, Leicester",
+        "description": "During my time at DMU I studied all aspects of artificial intelligence. I specialised in autonomous robotics (detailed on projects page), and using the C++ programming language due to its speed and maleability.",
+        "category": "education",
+        "skills":["C/C++","MATLAB","Lua", "ROS", "Python"]
+    },
+    {
+        "title": "BTEC Level 3 Extended Diploma in IT - D*D*D*",
+        "date": "Sep 2015-Jul 2017",
+        "location": "NPTC Group Colleges",
+        "description": "In college I learnt the basics of programming, web development, graphic design, game design and database creation and administration.",
+        "category": "education",
+        "skills":["VB", "Databases","Actionscript", "Photoshop", "GML"]
+    }
+]
