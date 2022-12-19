@@ -40,6 +40,11 @@ document.getElementById("heading").innerHTML = `
             Personal Projects
         </a>
     </li>
+    <li>
+        <a href="`+ notInFolder + `Current-Project.html" style="float:right">
+            Current Project
+        </a>
+    </li>
     <!--<li>
         <a href="`+ notInFolder + `references.html">
             References
