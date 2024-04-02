@@ -31,33 +31,13 @@ document.getElementById("heading").innerHTML = `
         </a>
     </li>
     <li>
-        <a href="`+ notInFolder + `skills-easyread.html">
-            Skills
-        </a>
-    </li>
-    <li>
         <a href="`+ notInFolder + `projects.html">
             Personal Projects
         </a>
     </li>
     <li>
-        <a href="`+ notInFolder + `Current-Project.html" style="float:right">
-            Current Project
-        </a>
-    </li>
-    <!--<li>
-        <a href="`+ notInFolder + `references.html">
-            References
-        </a>
-    </li>-->
-    <li>
         <a href="`+ notInFolder + `tetris.html" style="float:right">
             Bored At Work?
-        </a>
-    </li>
-    <li>
-        <a href="`+ inFolder + `S_Asquith.pdf" style="float:right">
-            CV
         </a>
     </li>
 </ul> 

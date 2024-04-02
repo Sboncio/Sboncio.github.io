@@ -1,9 +1,9 @@
 :root {
   /*--colour-1: rgb(63, 146, 216);*/
-  --colour-1: #1f2833;
+  --colour-1: #000000;
   /*--colour-2: rgb(16,8, 113, 19);*/
-  --colour-2: rgb(255,0,0);
-  --colour-2-1: #1f2833;
+  --colour-2: rgb(230, 1, 1);
+  --colour-2-1: #000000;
   --colour-2-2: rgb(137, 168, 99);
 }
 
@@ -13,6 +13,29 @@ body {
   padding-bottom: 100px;
   height: 100%;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  overflow: hidden;
+}
+.under-renovation-banner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw; /* 100% of viewport width */
+    height: 100vh; /* 100% of viewport height */
+    background-color: #f3dfc2; /* Red background color */
+    color: black; /* White text color */
+    font-size:24px;
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    z-index: 9999; /* Ensure it's above other content */
+    box-sizing: border-box; /* Include padding in width/height */
+    overflow: hidden; /* Prevent content from overflowing */
+}
+
+.under-renovation-banner img {
+    max-width: 100%; /* Ensure the image doesn't exceed the width of the container */
+    margin-top: 20px; /* Add some space between the text and the image */
 }
 
 html {
@@ -25,6 +48,7 @@ header {
   background-color: var(--colour-1);
   position: fixed;
   z-index: 99;
+  color: red;
 }
 #val {
   float: left;
@@ -36,9 +60,11 @@ header ul {
   margin: 0;
   padding: 0;
   width: 100%;
-  background-color: var(--colour-2);
+  background-color: var(--colour-2-1);
+  color: white;
   display: flex;
 }
+
 
 img {
   display: block;
@@ -48,7 +74,7 @@ img {
 
 header li a {
   display: block;
-  color: var(--colour-1);
+  color: white;
   padding: 9px 17px;
   text-decoration: none;
   font-size: 18px;
@@ -56,7 +82,7 @@ header li a {
 
 /* When the link is hovered on, its color will change */
 header li a:hover {
-  background-color: var(--colour-2-1);
+  background-color: var(--colour-2);
   color: white;
 }
 
@@ -219,6 +245,12 @@ footer p {
   text-align: center;
 }
 
+.parallax_data hr{
+  background-color: var(--colour-2-1);
+  border: none; /* Remove default border */
+  height: 2px; /* Set the height of the line */
+}
+
 .parallax_data_1 {
   height: auto;
   width: auto;
@@ -227,6 +259,13 @@ footer p {
   padding: 3%;
   padding-top: 1%;
   text-align: center;
+  color:white;
+}
+
+.parallax_data_1 hr{
+  background-color: var(--colour-2);
+  border: none; /* Remove default border */
+  height: 2px; /* Set the height of the line */
 }
 
 .bottom-index {
@@ -414,18 +453,19 @@ td {
 }
 
 .name-card {
-  height: 65%;
-  background-color: var(--colour-1);
+  height: 35%;
+  background-color: rgb(43, 43, 43);
 
   text-align: center;
   font-size: 64px;
+  font-weight: bolder;
 
   width: 100%;
 
-  color: black;
+  color: red;
   padding-top: 10%;
 
-  background-image: url("../images/background.png");
+  background-image: url("../images/new-background.jpeg");
 
   background-attachment: fixed;
   background-position: center;
